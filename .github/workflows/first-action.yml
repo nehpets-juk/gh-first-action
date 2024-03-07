@@ -10,6 +10,7 @@ on:
 jobs:
   create-repository:
     runs-on: ubuntu-latest
+    environment: Dev
     name: Creating Organization Repository
     steps:
       - name: Use Node.js
